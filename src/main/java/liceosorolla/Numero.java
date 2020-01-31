@@ -36,7 +36,7 @@ public class Numero {
 	public static void main(String[] args) {
 		int numero = 4;
 		primo(numero);
-
+		factorial(numero);
 	}
 
 	
