@@ -9,15 +9,16 @@ public class Cadena {
 		
 		String texto = "cadena";
 		
-		cadena(texto);
+		cambiador(texto);
 		
 	}//MAIN
 	
 	
-	public static void cadena(String texto) {
+	public static void cambiador(String texto) {
 		
 		
-		System.out.println("Longitud de la cadena es: " + texto.length()); 
+		System.out.println(texto.toUpperCase()); 
+		System.out.println(texto.toLowerCase()); 
 		
 	}
 	
